@@ -1,0 +1,162 @@
+inherited FormConfirmarAberturaCaixa: TFormConfirmarAberturaCaixa
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  inherited rectContent: TRectangle
+    inherited lblMensagem: TSkLabel
+      Position.Y = 109.000000000000000000
+      Visible = False
+    end
+    inherited lblTitle: TSkLabel
+      Visible = False
+    end
+    inherited svgIcone: TSkSvg
+      Size.Height = 26.000000000000000000
+      Svg.Source = ''
+      inherited rectAtalhoClose: TRectangle
+        Align = None
+        inherited rectClose: TRectangle
+          inherited lblClose: TSkLabel
+            Words = <
+              item
+                FontColor = xFF006CB5
+                StyledSettings = [Family, Size, Style]
+                Text = #59579
+              end>
+          end
+        end
+      end
+      object SkLabel1: TSkLabel
+        Align = Right
+        Position.X = 108.960021972656300000
+        Size.Width = 231.039993286132800000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = []
+        TextSettings.Font.Families = 'Montserrat'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.Weight = Semibold
+        TextSettings.FontColor = xFF0E74B9
+        TextSettings.HorzAlign = Trailing
+        Words = <
+          item
+            Text = 'Confirmar abertura do caixa'
+          end>
+      end
+    end
+    object Layout1: TLayout
+      Align = VertCenter
+      Position.X = 30.000000000000000000
+      Position.Y = 106.000000000000000000
+      Size.Width = 340.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Layout2: TLayout
+        Align = Left
+        Size.Width = 155.000000000000000000
+        Size.Height = 60.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object SkLabel3: TSkLabel
+          Align = Top
+          Size.Width = 155.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = []
+          TextSettings.Font.Families = 'Montserrat'
+          TextSettings.Font.Weight = Semibold
+          TextSettings.FontColor = xFF4D4D4D
+          TextSettings.HorzAlign = Trailing
+          Words = <
+            item
+              Text = 'Usu'#225'rio:'
+            end>
+        end
+        object SkLabel4: TSkLabel
+          Align = VertCenter
+          Position.Y = 21.000000000000000000
+          Size.Width = 155.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = []
+          TextSettings.Font.Families = 'Montserrat'
+          TextSettings.Font.Weight = Semibold
+          TextSettings.FontColor = xFF4D4D4D
+          TextSettings.HorzAlign = Trailing
+          Words = <
+            item
+              Text = 'Data:'
+            end>
+        end
+        object SkLabel5: TSkLabel
+          Align = Bottom
+          Position.Y = 43.000000000000000000
+          Size.Width = 155.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = []
+          TextSettings.Font.Families = 'Montserrat'
+          TextSettings.Font.Weight = Semibold
+          TextSettings.FontColor = xFF4D4D4D
+          TextSettings.HorzAlign = Trailing
+          Words = <
+            item
+              Text = 'Hora:'
+            end>
+        end
+      end
+      object Layout3: TLayout
+        Align = Right
+        Position.X = 185.000000000000000000
+        Size.Width = 155.000000000000000000
+        Size.Height = 60.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object lblUsuario: TSkLabel
+          Align = Top
+          Size.Width = 155.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = []
+          TextSettings.Font.Families = 'Montserrat'
+          TextSettings.Font.Weight = Semibold
+          TextSettings.FontColor = xFF0E74B9
+          Words = <
+            item
+              Text = 'Usu'#225'rio'
+            end>
+        end
+        object lblData: TSkLabel
+          Align = VertCenter
+          Position.Y = 21.000000000000000000
+          Size.Width = 155.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = []
+          TextSettings.Font.Families = 'Montserrat'
+          TextSettings.Font.Weight = Semibold
+          TextSettings.FontColor = xFF0E74B9
+          Words = <
+            item
+              Text = 'Data'
+            end>
+        end
+        object lblHora: TSkLabel
+          Align = Bottom
+          Position.Y = 43.000000000000000000
+          Size.Width = 155.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = []
+          TextSettings.Font.Families = 'Montserrat'
+          TextSettings.Font.Weight = Semibold
+          TextSettings.FontColor = xFF0E74B9
+          Words = <
+            item
+              Text = 'Hora'
+            end>
+        end
+      end
+    end
+  end
+end

@@ -1,0 +1,12 @@
+{
+	"name": "EcoPDV",
+	"description": "",
+	"version": "1.0.0",
+	"homepage": "",
+	"mainsrc": "./src",
+	"projects": [],
+	"dependencies": {
+		"https://github.com/magicfoundation/alcinoe": "^v1.0.7",
+		"https://github.com/mateusvicente100/fmx-toast": "^1.0.0"
+	}
+}

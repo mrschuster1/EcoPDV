@@ -1,0 +1,22 @@
+{
+	"hash": "d41d8cd98f00b204e9800998ecf8427e",
+	"updated": "2024-04-01T04:21:00.2073912-03:00",
+	"installedModules": {
+		"https://github.com/magicfoundation/alcinoe": {
+			"name": "alcinoe",
+			"version": "v1.0.7",
+			"hash": "8f4ff9339cd20a161a6c9dce81383488",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"https://github.com/mateusvicente100/fmx-toast": {
+			"name": "fmx-toast",
+			"version": "1.0.0",
+			"hash": "9f06ee133e3a707bcbf0be71f576ba0b",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		}
+	}
+}
